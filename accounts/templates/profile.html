@@ -1,6 +1,7 @@
 {% extends 'base.html' %} 
 {% block page_title %}{{ user }}'s Profile{% endblock %} 
-{% block page_heading %}{{ user }}'s Profile{% endblock %}
+{% block page_heading %}{{ user }}'s profile{% endblock %}
+<hr>
 {% block content %}
-<p>{{ profile.email }}</p>
+<p class="profile">{{ profile.email }}</p>
 {% endblock %}
